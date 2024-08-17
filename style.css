@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(20, 20, 20);
+}
+
+
+p.Text{
+    font-family: 'Oswald', sans-serif;
+    color: rgb(255, 255, 245);
+    font-size: 50px;
+    text-align: center;
+    font-style: initial;
+    font-weight: bold;
+}
+
+
+p.Text-2{
+    font-family: 'Oswald', sans-serif;
+    color: rgb(180, 180,180);
+    font-size: 20px;
+    text-align: center;
+    font-style: initial;
+    margin: 3px;
+    min-height: calc(100vh - 177px - 57px);
+}
+
+
+footer {
+    font-family: 'Oswald', sans-serif;
+    color: rgb(180, 180, 180, 0.7);
+    background-color: rgb(30, 30, 30);
+    text-align: center;
+    padding: 0.5px;
+}
+
+
+.Topic span {
+    display: inline-block;
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(255, 255, 245);
+    text-transform: uppercase;
+    animation: flip 2s infinite;
+    animation-delay: calc(.1s * var(--i))
+  }
+    @keyframes flip {
+    0%,75% {
+      transform: rotateY(360deg) 
+    }
+  }
